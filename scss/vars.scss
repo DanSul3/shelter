@@ -1,0 +1,13 @@
+$font-georgia: 'Georgia';
+$font-arial: 'Arial';
+$color:  #CDCDCD;
+$line-height: 1.6;
+$font-size: 15px;
+$font-weight: 400;
+$letter-spacing: 0.06em;
+
+@mixin sm-block(){
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}

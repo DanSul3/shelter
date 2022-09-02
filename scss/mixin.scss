@@ -1,0 +1,13 @@
+@mixin flex ($flex: flex, $justify: space-between, $align-items: center, $direction: none){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align-items;
+    flex-direction: $direction;
+}
+
+
+@mixin img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

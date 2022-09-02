@@ -1,0 +1,57 @@
+@import 'vars';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: $font-georgia;
+    font-weight: $font-weight;
+    font-size: 35px;
+    color: #545454;
+    letter-spacing: 0.06em;
+    line-height: 1.3em;
+}
+
+button{
+    border: 0;
+    font-family: $font-georgia;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+    padding: 15px 40px;
+    border-radius: 100px;
+    background: #F1CDB3;
+}
+
+p, a{
+    font-family: $font-arial;
+    line-height: $line-height;
+    font-weight: $font-weight;
+    font-size: 15px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
